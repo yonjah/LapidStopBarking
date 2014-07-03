@@ -1,0 +1,118 @@
+html {
+	background: #BDF;
+}
+body > * {
+	font-family: 'Alef', sans-serif;
+	display    : block;
+	text-align : center;
+	margin     : 0 auto;
+	color      : #700;
+	max-width  : 650px;
+	font-size  : 20px;
+}
+body > script {
+	display: none;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+a {
+	color          : #222;
+	text-decoration: none;
+	font-weight    : bold;
+}
+
+a:hover {
+	color: #C30000;
+}
+
+.btn {
+	vertical-align : middle;
+	display        : inline-block;
+	border         : solid 1px #666;
+	border-radius  : 25px;
+	text-decoration: none;
+	margin         : 10px 105px 10px 0;
+	padding        : 20px;
+}
+
+.btn:hover {
+	background: #ACE;
+}
+
+.btn:first-child {
+	margin-right: 16px;
+}
+
+.logo:before {
+	vertical-align: middle;
+	content       : '';
+	display       : inline-block;
+	margin        : -30px -40px -30px 10px;
+	width         : 100px;
+	height        : 100px;
+}
+
+.logo.firefox:before {
+	background: url('./firefox.png') no-repeat;
+}
+
+.logo.chrome:before {
+	background: url('./chrome.png') no-repeat;
+}
+
+.two-col > * {
+	display       : inline-block;
+	vertical-align: middle;
+}
+
+.two-col > span {
+	text-align: right;
+	padding   : 20px;
+	width     : 60%;
+}
+
+.two-col > img {
+	border-radius: 50%;
+	border       : solid #aaaaff;
+}
+
+.footer {
+	font-size: 0.8em;
+}
+
+
+@media all and (max-width: 620px) {
+	.btn {
+		margin: 10px;
+	}
+
+	body > * {
+		width    : 100%;
+		min-width: 300px;
+	}
+
+	.two-col > span, .two-col > img {
+		display: block;
+		width  : auto;
+		margin : 10px auto;
+	}
+}
+
+@media all and (max-width: 540px) {
+	.btn.logo {
+		position     : relative;
+		display      : block;
+		margin       : 20px 0px;
+		border-radius: 25px;
+		padding      : 20px 80px 20px 20px;
+	}
+
+	.logo:before {
+		position: absolute;
+		right   : 30px;
+		top     : 15px;
+	}
+}
