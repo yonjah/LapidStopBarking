@@ -1,0 +1,12 @@
+{
+  "name": "lapidstopbarking_us",
+  "title": "Yair Lapid Stop Barking",
+  "homepage": "http://lapidstopbarking.us",
+  "id": "jid1-E0eyAohzA8ZCxQ",
+  "icon" : "./icon.png",
+  "icon64" : "./icon.png",
+  "description": "האפליקציה הזו, מחליפה באופן אוטומטי את כל התמונות של יאיר לפיד ב... תמונות חמודות של כלבי שנאוצר",
+  "author": "@YoniJah and Naomi",
+  "license": "MPL 2.0",
+  "version": "1.0"
+}

@@ -1,0 +1,1 @@
+chrome.tabs.executeScript({file: "src/inject/inject.js"}, function() {});

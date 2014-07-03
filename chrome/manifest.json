@@ -1,0 +1,24 @@
+{
+   "background": {
+      "page": "src/bg/background.html",
+      "persistent": true
+   },
+   "content_scripts": [ {
+      "matches": [ "http://*/*", "https://*/*"  ],
+      "js": [ "src/inject/inject.js" ]
+   } ],
+   "description": "האפליקציה הזו, מחליפה באופן אוטומטי את כל התמונות של יאיר לפיד ב... תמונות חמודות של כלבי שנאוצר",
+   "homepage_url": "http://lapidstopbarking.us/",
+   "icons": {
+      "128": "icons/Icon-128.png",
+      "16": "icons/Icon-16.png",
+      "48": "icons/Icon-48.png"
+   },
+   "web_accessible_resources": [
+      "images/*"
+   ],
+   "manifest_version": 2,
+   "name": "Yair Lapid Stop Barking",
+   "permissions": [ "http://*/*", "https://*/*"  ],
+   "version": "1.0.0"
+}
